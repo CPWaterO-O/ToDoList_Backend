@@ -1,6 +1,5 @@
 import * as dotenv from 'dotenv';
 import { Pool, Client } from 'pg';
-
 dotenv.config({ path: __dirname + '/.env' });
 
 export class DutyService {

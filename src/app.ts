@@ -5,6 +5,7 @@ import bodyParser from 'body-parser';
 import { DutyService } from './Services/dutyService';
 import { DutyRouter } from './Routers/dutyRouter';
 
+
 const app = express();
 
 app.use(cors());

@@ -2,7 +2,6 @@ import * as express from 'express';
 import { Request, Response } from 'express';
 import { DutyService } from '../Services/dutyService';
 
-
 export class DutyRouter {
 
     constructor(private dutyService: DutyService) { }
